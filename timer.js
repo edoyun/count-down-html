@@ -8,7 +8,7 @@ setInterval(function () {
   var min = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
   var sec = Math.floor((gap % (1000 * 60)) / 1000);
 
-  document.getElementById("count").innerText = `우성빈 입대까지 ${day}일 ${
+  document.getElementById("count").innerText = `ㅇㅇ까지 ${day}일 ${
     hour < 10 ? `0${hour}` : hour
   }시간 ${min < 10 ? `0${min}` : min}분 ${
     sec < 10 ? `0${sec}` : sec
